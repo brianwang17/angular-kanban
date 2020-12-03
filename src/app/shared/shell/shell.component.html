@@ -1,1 +1,17 @@
-<p>shell works!</p>
+<mat-sidenav-container class="sidenav-container">
+
+  <!-- the hashtag thing is a template variable -->
+  <!-- template variables allow you to control this component like -->
+  <!-- open and close the drawer directly from the html -->
+  <!-- on things like button clicks -->
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+    [attr.role]="(isHandset$ | async)">
+    Sidenav content
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <ng-content>
+
+    </ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>
