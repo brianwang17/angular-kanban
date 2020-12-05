@@ -18,10 +18,10 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar>
-      <button type="button" aria-label="Toggle sidenav" mat-icon-mat-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
+      <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span class="logo" routerLink="/">🔥 Angular Firestarter</span>
+      <span class="logo" routerLink="/">🔥 Kanban Baby! 🔥</span>
       <span class="fill-space"></span>
       <div *ngIf="!(isHandset$ | async)">
           <a mat-button routerLink="/kanban">🍱 Kanban Demo</a>
