@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-kanban-f40e7": {
+      "hosting": {
+        "angular-kanban": [
+          "angular-kanban-f40e7"
+        ]
+      }
+    }
+  }
+}
